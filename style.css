@@ -1,0 +1,180 @@
+header {
+    height: 350px;
+    padding-top: 20px;
+    background: url(img/header_art.png) center;
+    background-size: contain;
+    
+}
+
+h1, h3 {
+    font-family: 'Staatliches', cursive;
+}
+
+
+
+.header_title{
+    float: left;
+    color: #000;
+	font-size: 24px;
+	padding-top: 0px;
+    margin-left: 10%;
+    margin-right: 70%;
+    display: flex;
+    background-color: #fff;
+} 
+nav{
+    display: block;
+	padding-top: 20px;
+    margin-left: 0;
+    padding-left: 65%;
+    padding-top: 0;
+    background-color: #000;
+    height: 40px;
+}
+
+.mynav a{
+	color: #fff;
+	text-align: center;
+	padding: 5px 16px;
+	font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+} 
+
+.mynav a:hover{
+    border-bottom: 3px solid #fff;
+}
+
+.header_butt button {
+    display: flex;
+	padding-top: 0px;
+    margin-left: 82%;
+    background-color: #000; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.header_butt button:hover{
+    background-color:  white ; 
+    color: #000;
+    border: none;   
+}
+.grid { 
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+.grid div {
+    font-size: 16px;
+    text-align: center;
+
+  }
+
+.box_one img {
+    width: 25%;
+  }
+p{
+    text-align: justify;
+}
+.box_one p {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.grid_two { 
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+
+.grid_two_box_one img {
+    width: 100%;
+    padding-left: 0;
+}
+.grid_two_box_two{
+    margin-top: 20%;
+}
+.grid_two_box_two p {
+    padding-right: 15%;
+    
+}
+
+.grid_photo{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.photo img{
+    width: 90%;
+}
+.myphoto_head{
+    margin-top: 70px;
+    margin-left: 10%;
+}
+
+.myvictories {
+    margin-top: 70px;
+    margin-left: 10%;
+}
+
+.grid_victories{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.box_viktoris img{
+    width: 100%;
+}
+
+.box_viktoris p{
+    padding-right: 35%;
+}
+
+.box_viktoris button{
+    display: flex;
+    margin-left: 0;
+    background-color: #000; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.box_viktoris button:hover{
+    background-color:  rgba(0, 0, 0, .3) ; 
+    color: #000;
+    border: none;   
+}
+footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0);
+}
+
+
+
